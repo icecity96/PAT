@@ -5,4 +5,4 @@ all:$(PROGRAM)
 $(PROGRAM):%:%.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $<
 clean:
-	rm -rf $(PROGRAM)
+	-rm -rf $(PROGRAM)
